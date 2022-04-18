@@ -22,7 +22,8 @@ Tested on a Windows 11 AMD 5950x Nvidia 3090 machine running:
 Run the following:  
 `python3 main.py`  
 This should spawn a window of the depth camera output, where the person is highlighted in blue and the background in red.   
-Using the blue pointcloud a center point is generated which is passed to V2VPoseNet along with a cropped pointcloud.
+To orient this correctly the camera should be placed so it's 90degrees to the right (so the cable comes out the left side).   
+Using the blue pointcloud a center point is generated which is passed to V2VPoseNet along with a cropped pointcloud, and the output is then displayed.
 
 
 ## Original V2VPoseNet authors
